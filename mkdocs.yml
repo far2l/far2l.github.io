@@ -34,3 +34,15 @@ markdown_extensions:
           case: lower
   - admonition
   - pymdownx.details
+
+plugins:
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: en
+          name: English
+          build: true
+        - locale: ru
+          default: true
+          name: Russian
+          build: true
