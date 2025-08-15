@@ -6,7 +6,28 @@ repo_name: elfmz/far2l
 repo_url: https://github.com/elfmz/far2l
 
 nav:
-  - Home: index.md
+  - 'Главная': 'index.md'
+  - 'Установка': 'installation.md'
+  - 'Первые шаги': 'getting-started.md'
+  - 'Руководство пользователя':
+    - 'Бекенды интерфейса': 'user-guide/backends.md'
+    - 'Основные возможности': 'user-guide/features.md'
+    - 'Комбинации клавиш': 'user-guide/keybindings.md'
+    - 'Плагины':
+      - 'Обзор плагинов': 'user-guide/plugins/index.md'
+      - 'Работа с архивами (ArcLite)': 'user-guide/plugins/arclite.md'
+      - 'Сетевые подключения (NetRocks)': 'user-guide/plugins/netrocks.md'
+    - 'Макросы': 'user-guide/macros.md'
+  - 'Сравнение':
+    - 'far2l vs Midnight Commander': 'comparison/vs-mc.md'
+    - 'far2l vs Windows FAR': 'comparison/vs-windows-far.md'
+  - 'Решение проблем':
+    - 'Конфликты горячих клавиш': 'troubleshooting/hotkey-conflicts.md'
+    - 'Настройка терминалов': 'troubleshooting/terminal-setup.md'
+    - 'Особенности Wayland': 'troubleshooting/wayland.md'
+  - 'Для разработчиков':
+    - 'Философия проекта': 'developer/philosophy.md'
+    - 'Руководство для контрибьюторов': 'developer/contributing.md'
 
 theme:
   name: material
