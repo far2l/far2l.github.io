@@ -8,26 +8,28 @@
       
       
       
-        <link rel="canonical" href="https://far2l.github.io/">
+        <link rel="canonical" href="https://far2l.github.io/troubleshooting/wayland/">
       
       
+        <link rel="prev" href="../terminal-setup/">
       
-        <link rel="next" href="installation/">
+      
+        <link rel="next" href="../../developer/philosophy/">
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.17">
     
     
       
-        <title>far2l</title>
+        <title>Особенности Wayland - far2l</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.7e37652d.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e37652d.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -46,7 +48,7 @@
       
     
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -72,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#far2l" class="md-skip">
+        <a href="#wayland" class="md-skip">
           Перейти к содержанию
         </a>
       
@@ -88,7 +90,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Верхний колонтитул">
-    <a href="." title="far2l" class="md-header__button md-logo" aria-label="far2l" data-md-component="logo">
+    <a href="../.." title="far2l" class="md-header__button md-logo" aria-label="far2l" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -108,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Главная
+              Особенности Wayland
             
           </span>
         </div>
@@ -155,13 +157,13 @@
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="/en/" hreflang="en" class="md-select__link">
+            <a href="../../en/troubleshooting/wayland/" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="/" hreflang="ru" class="md-select__link">
+            <a href="./" hreflang="ru" class="md-select__link">
               Russian
             </a>
           </li>
@@ -210,7 +212,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Навигация" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="far2l" class="md-nav__button md-logo" aria-label="far2l" data-md-component="logo">
+    <a href="../.." title="far2l" class="md-nav__button md-logo" aria-label="far2l" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -237,32 +239,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Главная
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -273,53 +253,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Содержание">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Содержание
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      Основные возможности
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#far2m-lua-" class="md-nav__link">
-    <span class="md-ellipsis">
-      far2m — форк с Lua-макросами
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      Сообщество
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -331,7 +264,7 @@
   
   
     <li class="md-nav__item">
-      <a href="installation/" class="md-nav__link">
+      <a href="../../installation/" class="md-nav__link">
         
   
   
@@ -353,7 +286,7 @@
   
   
     <li class="md-nav__item">
-      <a href="getting-started/" class="md-nav__link">
+      <a href="../../getting-started/" class="md-nav__link">
         
   
   
@@ -413,7 +346,7 @@
   
   
     <li class="md-nav__item">
-      <a href="user-guide/backends/" class="md-nav__link">
+      <a href="../../user-guide/backends/" class="md-nav__link">
         
   
   
@@ -436,7 +369,7 @@
   
   
     <li class="md-nav__item">
-      <a href="user-guide/features/" class="md-nav__link">
+      <a href="../../user-guide/features/" class="md-nav__link">
         
   
   
@@ -459,7 +392,7 @@
   
   
     <li class="md-nav__item">
-      <a href="user-guide/keybindings/" class="md-nav__link">
+      <a href="../../user-guide/keybindings/" class="md-nav__link">
         
   
   
@@ -520,7 +453,7 @@
   
   
     <li class="md-nav__item">
-      <a href="user-guide/plugins/" class="md-nav__link">
+      <a href="../../user-guide/plugins/" class="md-nav__link">
         
   
   
@@ -543,7 +476,7 @@
   
   
     <li class="md-nav__item">
-      <a href="user-guide/plugins/arclite/" class="md-nav__link">
+      <a href="../../user-guide/plugins/arclite/" class="md-nav__link">
         
   
   
@@ -566,7 +499,7 @@
   
   
     <li class="md-nav__item">
-      <a href="user-guide/plugins/netrocks/" class="md-nav__link">
+      <a href="../../user-guide/plugins/netrocks/" class="md-nav__link">
         
   
   
@@ -597,7 +530,7 @@
   
   
     <li class="md-nav__item">
-      <a href="user-guide/macros/" class="md-nav__link">
+      <a href="../../user-guide/macros/" class="md-nav__link">
         
   
   
@@ -665,7 +598,7 @@
   
   
     <li class="md-nav__item">
-      <a href="comparison/vs-mc/" class="md-nav__link">
+      <a href="../../comparison/vs-mc/" class="md-nav__link">
         
   
   
@@ -688,7 +621,7 @@
   
   
     <li class="md-nav__item">
-      <a href="comparison/vs-windows-far/" class="md-nav__link">
+      <a href="../../comparison/vs-windows-far/" class="md-nav__link">
         
   
   
@@ -715,18 +648,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
         
           
           <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
@@ -742,7 +677,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             Решение проблем
@@ -756,7 +691,7 @@
   
   
     <li class="md-nav__item">
-      <a href="troubleshooting/hotkey-conflicts/" class="md-nav__link">
+      <a href="../hotkey-conflicts/" class="md-nav__link">
         
   
   
@@ -779,7 +714,7 @@
   
   
     <li class="md-nav__item">
-      <a href="troubleshooting/terminal-setup/" class="md-nav__link">
+      <a href="../terminal-setup/" class="md-nav__link">
         
   
   
@@ -799,10 +734,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="troubleshooting/wayland/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Особенности Wayland
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -813,6 +770,86 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Суть проблемы
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Решения
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Решения">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Автоматическая адаптация
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gui-xwayland" class="md-nav__link">
+    <span class="md-ellipsis">
+      Решение для GUI-версии (XWayland)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Решение для терминальной версии
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#x11" class="md-nav__link">
+    <span class="md-ellipsis">
+      "Последний довод": переключение на X11
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -870,7 +907,7 @@
   
   
     <li class="md-nav__item">
-      <a href="developer/philosophy/" class="md-nav__link">
+      <a href="../../developer/philosophy/" class="md-nav__link">
         
   
   
@@ -893,7 +930,7 @@
   
   
     <li class="md-nav__item">
-      <a href="developer/contributing/" class="md-nav__link">
+      <a href="../../developer/contributing/" class="md-nav__link">
         
   
   
@@ -945,16 +982,7 @@
         <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
-      Основные возможности
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#far2m-lua-" class="md-nav__link">
-    <span class="md-ellipsis">
-      far2m — форк с Lua-макросами
+      Суть проблемы
     </span>
   </a>
   
@@ -963,9 +991,51 @@
         <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
-      Сообщество
+      Решения
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Решения">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Автоматическая адаптация
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gui-xwayland" class="md-nav__link">
+    <span class="md-ellipsis">
+      Решение для GUI-версии (XWayland)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Решение для терминальной версии
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#x11" class="md-nav__link">
+    <span class="md-ellipsis">
+      "Последний довод": переключение на X11
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -988,23 +1058,34 @@
   
 
 
-<h1 id="far2l">Добро пожаловать в мир far2l!</h1>
-<p><strong>far2l</strong> — это порт классического файлового менеджера <strong>FAR Manager v2</strong> для Linux, macOS и BSD. Проект сохраняет дух, скорость и удобство оригинального FAR, адаптируя его для современных Unix-подобных систем.</p>
-<p><img alt="Скриншот far2l" src="https://raw.githubusercontent.com/elfmz/far2l/master/far2l/DE/screenshots/far2l.png" /></p>
-<h3 id="_1">Основные возможности</h3>
+<h1 id="wayland">Особенности работы в Wayland</h1>
+<p>Протокол Wayland, используемый по умолчанию во многих современных дистрибутивах (Ubuntu, Fedora), имеет более строгую модель безопасности, что создает некоторые трудности для приложений вроде far2l.</p>
+<h3 id="_1">Суть проблемы</h3>
+<p>Из соображений безопасности Wayland не позволяет приложениям легко перехватывать ввод с клавиатуры или получать доступ к буферу обмена, если они не находятся в фокусе. Это может нарушить работу:
+*   <strong>TTY|Xi</strong> бекенда, который полагается на X11 для получения расширенных данных о клавиатуре.
+*   <strong>GUI-версии</strong>, особенно в части работы с буфером обмена.</p>
+<h3 id="_2">Решения</h3>
+<p>К счастью, большинство проблем уже решены или имеют простые обходные пути.</p>
+<h4 id="_3">Автоматическая адаптация</h4>
+<p>Современные версии far2l (начиная с 2.6.1) <strong>автоматически определяют</strong> запуск под Wayland и адаптируются:
+*   Бекенд <strong>TTY|Xi</strong> автоматически переключается в режим <strong>TTY|X</strong>, который более совместим.
+*   Проблемы с буфером обмена в <strong>GUI-версии</strong> в основном исправлены.</p>
+<h4 id="gui-xwayland">Решение для GUI-версии (XWayland)</h4>
+<p>Если у вас все еще возникают проблемы с GUI-версией (например, с буфером обмена или перетаскиванием), запустите ее в режиме совместимости с X11 (XWayland).</p>
 <ul>
-<li><strong>Двухпанельный интерфейс:</strong> Классический и эффективный способ управления файлами.</li>
-<li><strong>Мощный редактор и просмотрщик:</strong> Встроенные инструменты с подсветкой синтаксиса (Colorer) и поддержкой множества кодировок.</li>
-<li><strong>Работа с архивами:</strong> Прозрачный вход в архивы как в обычные папки (плагины MultiArc и ArcLite).</li>
-<li><strong>Сетевые подключения:</strong> Встроенная поддержка SFTP, SCP, FTP, SMB, NFS и WebDAV через плагин NetRocks.</li>
-<li><strong>Расширяемость:</strong> Поддержка плагинов и макросов для автоматизации задач.</li>
-<li><strong>Работа в терминале и GUI:</strong> Возможность запуска как в графическом режиме, так и в любой консоли.</li>
-<li><strong>Эскалация привилегий:</strong> Автоматический запрос пароля <code>sudo</code> при редактировании системных файлов.</li>
+<li><strong>Разовый запуск из консоли:</strong>
+    <div class="highlight"><pre><span></span><code><span class="nv">GDK_BACKEND</span><span class="o">=</span>x11<span class="w"> </span>far2l
+</code></pre></div></li>
+<li><strong>Постоянное решение (изменить ярлык):</strong><ol>
+<li>Откройте файл <code>/usr/share/applications/far2l.desktop</code> с правами <code>sudo</code>.</li>
+<li>Замените строку <code>Exec=far2l</code> на <code>Exec=env GDK_BACKEND=x11 far2l</code>.</li>
+</ol>
+</li>
 </ul>
-<h3 id="far2m-lua-">far2m — форк с Lua-макросами</h3>
-<p>Существует также форк <strong>far2m</strong>, который добавляет поддержку макросов на языке Lua, аналогично современному FAR Manager 3. Большинство информации на этом сайте применимо к обеим версиям.</p>
-<h3 id="_2">Сообщество</h3>
-<p>Присоединяйтесь к обсуждению и получайте помощь в русскоязычном Telegram-чате: <a href="https://t.me/far2l_ru"><strong>@far2l_ru</strong></a>.</p>
+<h4 id="_4">Решение для терминальной версии</h4>
+<p>Используйте <a href="../terminal-setup/">современные терминалы</a>, такие как <strong>kitty</strong>, <strong>Alacritty</strong> или <strong>foot</strong>, которые имеют собственные протоколы для работы с клавиатурой и буфером обмена, не зависящие от X11.</p>
+<h4 id="x11">"Последний довод": переключение на X11</h4>
+<p>Если ничего не помогает, вы можете переключить всю вашу систему на использование сессии X11 вместо Wayland. Это делается на экране входа в систему (обычно через иконку шестеренки перед вводом пароля).</p>
 
 
 
@@ -1053,10 +1134,10 @@
     
     
       
-      <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "search.result.more.one": "\u0415\u0449\u0451 1 \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.more.other": "\u0415\u0449\u0451 # \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439: #", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.term.missing": "\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442", "select.version": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0435\u0440\u0441\u0438\u044e"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "search.result.more.one": "\u0415\u0449\u0451 1 \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.more.other": "\u0415\u0449\u0451 # \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439: #", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.term.missing": "\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442", "select.version": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0435\u0440\u0441\u0438\u044e"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.92b07e13.min.js"></script>
+      <script src="../../assets/javascripts/bundle.92b07e13.min.js"></script>
       
     
   </body>

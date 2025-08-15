@@ -1,7 +1,241 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-         <loc>https://far2l.github.io/</loc>
-         <lastmod>2025-08-15</lastmod>
+        <loc>https://far2l.github.io/getting-started/</loc>
+        <lastmod>2025-08-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://far2l.github.io/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://far2l.github.io/en/getting-started/"/>
+    </url>
+    <url>
+        <loc>https://far2l.github.io/</loc>
+        <lastmod>2025-08-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://far2l.github.io/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://far2l.github.io/en/"/>
+    </url>
+    <url>
+        <loc>https://far2l.github.io/installation/</loc>
+        <lastmod>2025-08-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://far2l.github.io/installation/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://far2l.github.io/en/installation/"/>
+    </url>
+    <url>
+        <loc>https://far2l.github.io/comparison/vs-mc/</loc>
+        <lastmod>2025-08-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://far2l.github.io/comparison/vs-mc/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://far2l.github.io/en/comparison/vs-mc/"/>
+    </url>
+    <url>
+        <loc>https://far2l.github.io/comparison/vs-windows-far/</loc>
+        <lastmod>2025-08-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://far2l.github.io/comparison/vs-windows-far/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://far2l.github.io/en/comparison/vs-windows-far/"/>
+    </url>
+    <url>
+        <loc>https://far2l.github.io/developer/contributing/</loc>
+        <lastmod>2025-08-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://far2l.github.io/developer/contributing/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://far2l.github.io/en/developer/contributing/"/>
+    </url>
+    <url>
+        <loc>https://far2l.github.io/developer/philosophy/</loc>
+        <lastmod>2025-08-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://far2l.github.io/developer/philosophy/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://far2l.github.io/en/developer/philosophy/"/>
+    </url>
+    <url>
+        <loc>https://far2l.github.io/troubleshooting/hotkey-conflicts/</loc>
+        <lastmod>2025-08-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://far2l.github.io/troubleshooting/hotkey-conflicts/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://far2l.github.io/en/troubleshooting/hotkey-conflicts/"/>
+    </url>
+    <url>
+        <loc>https://far2l.github.io/troubleshooting/terminal-setup/</loc>
+        <lastmod>2025-08-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://far2l.github.io/troubleshooting/terminal-setup/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://far2l.github.io/en/troubleshooting/terminal-setup/"/>
+    </url>
+    <url>
+        <loc>https://far2l.github.io/troubleshooting/wayland/</loc>
+        <lastmod>2025-08-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://far2l.github.io/troubleshooting/wayland/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://far2l.github.io/en/troubleshooting/wayland/"/>
+    </url>
+    <url>
+        <loc>https://far2l.github.io/user-guide/backends/</loc>
+        <lastmod>2025-08-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://far2l.github.io/user-guide/backends/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://far2l.github.io/en/user-guide/backends/"/>
+    </url>
+    <url>
+        <loc>https://far2l.github.io/user-guide/features/</loc>
+        <lastmod>2025-08-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://far2l.github.io/user-guide/features/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://far2l.github.io/en/user-guide/features/"/>
+    </url>
+    <url>
+        <loc>https://far2l.github.io/user-guide/keybindings/</loc>
+        <lastmod>2025-08-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://far2l.github.io/user-guide/keybindings/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://far2l.github.io/en/user-guide/keybindings/"/>
+    </url>
+    <url>
+        <loc>https://far2l.github.io/user-guide/macros/</loc>
+        <lastmod>2025-08-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://far2l.github.io/user-guide/macros/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://far2l.github.io/en/user-guide/macros/"/>
+    </url>
+    <url>
+        <loc>https://far2l.github.io/user-guide/plugins/arclite/</loc>
+        <lastmod>2025-08-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://far2l.github.io/user-guide/plugins/arclite/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://far2l.github.io/en/user-guide/plugins/arclite/"/>
+    </url>
+    <url>
+        <loc>https://far2l.github.io/user-guide/plugins/</loc>
+        <lastmod>2025-08-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://far2l.github.io/user-guide/plugins/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://far2l.github.io/en/user-guide/plugins/"/>
+    </url>
+    <url>
+        <loc>https://far2l.github.io/user-guide/plugins/netrocks/</loc>
+        <lastmod>2025-08-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://far2l.github.io/user-guide/plugins/netrocks/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://far2l.github.io/en/user-guide/plugins/netrocks/"/>
+    </url>
+    <url>
+        <loc>https://far2l.github.io/en/getting-started/</loc>
+        <lastmod>2025-08-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://far2l.github.io/en/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://far2l.github.io/getting-started/"/>
+    </url>
+    <url>
+        <loc>https://far2l.github.io/en/</loc>
+        <lastmod>2025-08-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://far2l.github.io/en/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://far2l.github.io/"/>
+    </url>
+    <url>
+        <loc>https://far2l.github.io/en/installation/</loc>
+        <lastmod>2025-08-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://far2l.github.io/en/installation/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://far2l.github.io/installation/"/>
+    </url>
+    <url>
+        <loc>https://far2l.github.io/en/comparison/vs-mc/</loc>
+        <lastmod>2025-08-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://far2l.github.io/en/comparison/vs-mc/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://far2l.github.io/comparison/vs-mc/"/>
+    </url>
+    <url>
+        <loc>https://far2l.github.io/en/comparison/vs-windows-far/</loc>
+        <lastmod>2025-08-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://far2l.github.io/en/comparison/vs-windows-far/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://far2l.github.io/comparison/vs-windows-far/"/>
+    </url>
+    <url>
+        <loc>https://far2l.github.io/en/developer/contributing/</loc>
+        <lastmod>2025-08-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://far2l.github.io/en/developer/contributing/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://far2l.github.io/developer/contributing/"/>
+    </url>
+    <url>
+        <loc>https://far2l.github.io/en/developer/philosophy/</loc>
+        <lastmod>2025-08-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://far2l.github.io/en/developer/philosophy/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://far2l.github.io/developer/philosophy/"/>
+    </url>
+    <url>
+        <loc>https://far2l.github.io/en/troubleshooting/hotkey-conflicts/</loc>
+        <lastmod>2025-08-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://far2l.github.io/en/troubleshooting/hotkey-conflicts/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://far2l.github.io/troubleshooting/hotkey-conflicts/"/>
+    </url>
+    <url>
+        <loc>https://far2l.github.io/en/troubleshooting/terminal-setup/</loc>
+        <lastmod>2025-08-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://far2l.github.io/en/troubleshooting/terminal-setup/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://far2l.github.io/troubleshooting/terminal-setup/"/>
+    </url>
+    <url>
+        <loc>https://far2l.github.io/en/troubleshooting/wayland/</loc>
+        <lastmod>2025-08-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://far2l.github.io/en/troubleshooting/wayland/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://far2l.github.io/troubleshooting/wayland/"/>
+    </url>
+    <url>
+        <loc>https://far2l.github.io/en/user-guide/backends/</loc>
+        <lastmod>2025-08-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://far2l.github.io/en/user-guide/backends/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://far2l.github.io/user-guide/backends/"/>
+    </url>
+    <url>
+        <loc>https://far2l.github.io/en/user-guide/features/</loc>
+        <lastmod>2025-08-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://far2l.github.io/en/user-guide/features/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://far2l.github.io/user-guide/features/"/>
+    </url>
+    <url>
+        <loc>https://far2l.github.io/en/user-guide/keybindings/</loc>
+        <lastmod>2025-08-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://far2l.github.io/en/user-guide/keybindings/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://far2l.github.io/user-guide/keybindings/"/>
+    </url>
+    <url>
+        <loc>https://far2l.github.io/en/user-guide/macros/</loc>
+        <lastmod>2025-08-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://far2l.github.io/en/user-guide/macros/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://far2l.github.io/user-guide/macros/"/>
+    </url>
+    <url>
+        <loc>https://far2l.github.io/en/user-guide/plugins/arclite/</loc>
+        <lastmod>2025-08-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://far2l.github.io/en/user-guide/plugins/arclite/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://far2l.github.io/user-guide/plugins/arclite/"/>
+    </url>
+    <url>
+        <loc>https://far2l.github.io/en/user-guide/plugins/</loc>
+        <lastmod>2025-08-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://far2l.github.io/en/user-guide/plugins/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://far2l.github.io/user-guide/plugins/"/>
+    </url>
+    <url>
+        <loc>https://far2l.github.io/en/user-guide/plugins/netrocks/</loc>
+        <lastmod>2025-08-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://far2l.github.io/en/user-guide/plugins/netrocks/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://far2l.github.io/user-guide/plugins/netrocks/"/>
     </url>
 </urlset>
